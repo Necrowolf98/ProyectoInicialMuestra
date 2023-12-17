@@ -74,7 +74,7 @@ class RolesAndPermissionsSeeder extends Seeder
         ]);
 
         $user_normal->syncPermissions([
-            $dashboard.
+            $dashboard,
             $profile1,
             $profile2
         ]);

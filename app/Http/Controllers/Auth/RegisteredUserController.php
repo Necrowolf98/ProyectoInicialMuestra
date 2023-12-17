@@ -43,7 +43,7 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        $user->assignRole('Cliente');
+        $user->assignRole('Usuario');
 
         event(new Registered($user));
 
