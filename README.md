@@ -1,4 +1,18 @@
-<<<<<<< HEAD
+<p align="center">Proyecto con proposito de demostración. Sientase libre de usarlo como lo requiera</p>
+
+Para la poder usar el proyecto realize las siguientes instrucciones:
+    - Dentro de la carpeta del archivo crear la variable de ambiente.
+    - En la variable de ambiente agregar la conexión de la base de datos y a su vez crear esa base de datos.
+    - Configure dentro de la variable de ambiente el mailer pudiendo ser smtp. (Puede utilizar mailtrap). (En caso de que no requiera, usar mailtrap, al crear un usuario puede cambiar el valor del registro en la columna email_verified_at a            una fecha).
+    - Ejecutar composer install.
+    - Ejecutar php artisan key:generate 
+    - Ejecutar php artisan migrate --seed
+    - Finalmente correr el php artisan serve
+
+En caso de que no requiera crear un usuario dejo las credenciales de mi usuario administrador.
+    -username: anthonychica.98@gmail.com
+    -contraseña: password
+    
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
