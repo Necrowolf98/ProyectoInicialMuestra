@@ -17,8 +17,12 @@ Para la poder usar el proyecto realize las siguientes instrucciones:
     - Finalmente correr el php artisan serve
 
 En caso de que no requiera crear un usuario dejo las credenciales de mi usuario administrador.
+
     -username: anthonychica.98@gmail.com
+    
     -contraseña: password
+
+PD: No es necesario correr npm install o npm run dev para compilar
     
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
